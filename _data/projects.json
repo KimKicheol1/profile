@@ -1,9 +1,9 @@
 [
     {
         "image": "assets/img/projects/project1.jpg",
-        "title": "My Title 01",
+        "title": "웹 스크래핑 - 네이버 뉴스",
         "description": "My Description 01",
-        "link": "#"
+        "link": "https://colab.research.google.com/drive/1TFaJB_jGVreCvDdTGigJZ1tKBv4KtzE_?usp=sharing"
     },
     {
         "image": "assets/img/projects/project2.jpg",
