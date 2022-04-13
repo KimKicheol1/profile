@@ -7,7 +7,7 @@
   <div id="sidebar" class="sidebar sidebar-with-footer">
     <!-- Aplication Brand -->
     <div class="app-brand">
-      <a href="index.html" title="Dashboard">
+      <a href="index.html" title="My pofile">
         <svg
           class="brand-icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -33,13 +33,6 @@
 
       <!-- sidebar menu -->
       <ul class="nav sidebar-inner" id="sidebar-menu">
-        <li class="expand">
-          <a href="my-profile.html" aria-controls="my-profile">
-            <i class="mdi mdi-account-outline"></i>
-            <span class="nav-text">My Profile</span> <b class="caret"></b>
-          </a>
-        </li>
-
         {% for item in site.data.sidenavItems %}
           {% if item.type == "section-title" %}
             <li class="{{item.type}}">
